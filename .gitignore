@@ -1,0 +1,74 @@
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development
+!.env.example
+
+# Hedera credentials & proprietary
+.hedera/
+server/proprietary/
+**/hedera-secrets/
+**/*private-key*
+**/*account-id*
+**/keys/
+
+# Internal Business & Strategy (DO NOT PUSH)
+CANADA_BUSINESS_PLAN_CANADASTARTUPS.txt
+BUSINESS_MODEL_ANALYSIS.md
+REVENUE_OPTIMIZED_ROADMAP.md
+PHASE_1_IMPLEMENTATION.md
+PHASE_1_COMPLETE.md
+PHASE_1_SUMMARY.md
+replit.md
+SETUP_SECRETS_GUIDE.md
+PHASE_1_SUMMARY.md
+PHASE_1_COMPLETE.md
+PHASE_1_IMPLEMENTATION.md
+
+# AI Tool Artifacts
+attached_assets/
+
+# Database
+*.db
+*.sqlite
+.database/
+
+# ML Models (proprietary)
+server/ml-models/
+*.pkl
+*.h5
+*.onnx
+
+# Build & Dependencies
+node_modules/
+dist/
+build/
+.next/
+.cache
+.local
+.upm
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.code-workspace
+
+# Secrets & Config
+secrets.ts
+secrets.json
+config/production.ts
+firebase-adminsdk.json
+.git/objects/
+
+# Office files
+*.pptx
+*.ppt
+
+# Logs
+*.log
+logs/
+.DS_Store
+coverage/
