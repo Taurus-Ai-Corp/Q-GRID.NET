@@ -1,0 +1,5 @@
+Contact: mailto:security@taurusai.io
+Expires: 2027-03-20T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://comply.q-grid.ca/.well-known/security.txt
+Policy: https://comply.q-grid.ca/security
